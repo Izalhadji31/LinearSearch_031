@@ -26,6 +26,7 @@ void input()
         cin >> arr[i];
     }
 }
+
 void LinearSearch()
 {
     char ch;
@@ -53,6 +54,7 @@ void LinearSearch()
         cin >> ch;
     } while ((ch == 'y') || (ch == 'y'));
 }
+
 int main()
 {
     input();
