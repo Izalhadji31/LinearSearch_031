@@ -27,7 +27,29 @@ void input()
  
     }
 }
-int main()
+void LinearSearch()
 {
-    std::cout << "Hello World!\n";
+    char ch;
+    int comparison;
+
+    do
+    {
+        cout << "\nEnter the element you want to search: ";
+        int item;
+
+        comparison = 0;
+        for (i = 0; i < n; i++)
+        {
+            comparison++;
+            if (arr[i] == item)
+            {
+                cout << "\n" << item << " found at position " << (i + 1) << endl;
+                break;
+            }
+        }
+
+    }
+}
+int main() {
+
 }
